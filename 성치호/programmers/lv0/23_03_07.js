@@ -1,3 +1,4 @@
+// 문제 : 문자열 정렬하기(1)
 ///////////////////////// 1번째 풀이///////////////////
 
 function solution(my_string) {
@@ -17,11 +18,6 @@ function solution(my_string) {
 // 2. 이중 포문으로 0-9사이의 숫자(j) 와 arr1[i]가 같다면 answer 배열에 push
 // 3. 오름차순 정렬
 
-
-
-
-
-
 /////////////////////////// 2번째 풀이//////////////////
 
 function solution(my_string) {
@@ -33,6 +29,7 @@ function solution(my_string) {
 // 3. sort로 오름차순 정렬  ( b-a면 내림차순 )
 // 4. map으로 배열 전체순환하면서 숫자로 바꿔줌
 
-// let a = "12345678";
-// let b = a.replace(/[^1-3]/g,"");
-// console.log(b);
+
+
+
+
