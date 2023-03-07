@@ -70,3 +70,20 @@ function solution(n, t) {
 }
 
 // Math.pow(a, b) = a의 b승
+
+
+
+
+// 문제 : n의 배수 고르기 https://school.programmers.co.kr/learn/courses/30/lessons/120905
+
+function solution(n, numlist) {
+    let answer = [];
+    for (let i = 0; i < numlist.length; i++) {
+        if (numlist[i] % n === 0) {
+            answer.push(numlist[i]);
+        }
+    }
+    return answer;
+}
+
+// 각 배열 요소를 n으로 나눠서 나머지 0이면 배수이므로 push
