@@ -1,4 +1,4 @@
-// 문제 : 문자열 정렬하기(1)
+// 문제 : 문자열 정렬하기(1) https://school.programmers.co.kr/learn/courses/30/lessons/120850
 ///////////////////////// 1번째 풀이///////////////////
 
 function solution(my_string) {
@@ -32,7 +32,7 @@ function solution(my_string) {
 
 
 
-// 문제 : 대문자와 소문자
+// 문제 : 대문자와 소문자 https://school.programmers.co.kr/learn/courses/30/lessons/120893
 
 function solution(my_string) {
     let answer = "";
@@ -50,3 +50,23 @@ function solution(my_string) {
 // 1. for문으로 각 요소가 대문잔지 소문잔지 매칭해서 그 반대걸로 바꿔서 answer에 대입
 
 
+
+
+// 문제 : 세균증식 https://school.programmers.co.kr/learn/courses/30/lessons/120910
+/////////////    풀이 1   //////////
+function solution(n, t) {
+    for (let i = 1; i <= t; i++) {
+        n *= 2;
+    }
+    return n;
+}
+
+// t의 숫자 만큼 for loop 돌려서 2곱해준 n 값
+
+////////////// 풀이2 ////////////////
+
+function solution(n, t) {
+    return n*Math.pow(2,t);
+}
+
+// Math.pow(a, b) = a의 b승
